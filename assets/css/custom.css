@@ -125,14 +125,14 @@ body {
 }
 
 .fa-chevron-up {
-  color:#ffb374;
+  color:#61b4a7;
   font-size: 50px;
   display: flex;
   justify-content: center;
 }
 
 .fa-chevron-up:hover, a:hover {
-  color:#ffb374;
+  color:#ade2d7;
   text-decoration: none;
 }
 
