@@ -41,3 +41,8 @@ sr.reveal('#contactTitle', {
     reset: true,
     distance: '150px'
 });
+
+sr.reveal('#aboutMeSection', {
+    // reset: true,
+    mobile: false
+});
