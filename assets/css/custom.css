@@ -108,6 +108,29 @@ body {
   padding-top:20px;
 }
 
+#arrowAbout {
+  padding-top: 50px;
+}
+
+#arrowSkills {
+  padding-bottom: 50px;
+}
+
+#arrowWork {
+  padding-top: 50px;
+}
+
+#arrowContact {
+  padding-bottom: 50px;
+}
+
+.fa-chevron-up {
+  color:#ffb374;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .signature .left,.signature .right {
   flex: 1 0 auto;
   color:#fff;
@@ -126,10 +149,6 @@ body {
 .signature {
     display: flex;
     justify-content: center;
-    padding: 3rem 0;
-    border-top: 1px solid #1c293f;
-    color: #5d6c89;
-    font-weight: 500;
 }
 
 .love {
