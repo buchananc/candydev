@@ -1,9 +1,4 @@
 // Smoooth scroll function
-// function nav(){
-// var scroll = new SmoothScroll('a[href*="#"]');
-// };
-// nav();
-
 $(document).ready(function () {
     // Add smooth scrolling to all links
     $("a").on('click', function (event) {

@@ -108,34 +108,121 @@ body {
   padding-top:20px;
 }
 
-@media (min-width: 768px) {
-  #aboutMePara {
-    padding-left:80px;
-    padding-right:80px;
-    margin-left:80px;
-    margin-right:80px;
-  }
+.signature .left,.signature .right {
+  flex: 1 0 auto;
+  color:#fff;
+  font-family:Raleway, sans-serif;
+  font-weight: 100;
+}
+
+.signature .left {
+    text-align: right
+}
+
+.signature .right {
+    text-align: left
+}
+
+.signature {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    border-top: 1px solid #1c293f;
+    color: #5d6c89;
+    font-weight: 500;
+}
+
+.love {
+    padding: 0 .4rem;
+    animation: 1.5s heartThrob infinite;
+}
+
+.love svg {
+    height: 1.75rem
+}
+
+@-moz-keyframes heartThrob {
+    10% {
+        transform: scale(1.15)
+    }
+
+    20% {
+        transform: scale(1)
+    }
+
+    40% {
+        transform: scale(1.15)
+    }
+
+    60% {
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes heartThrob {
+    10% {
+        transform: scale(1.15)
+    }
+
+    20% {
+        transform: scale(1)
+    }
+
+    40% {
+        transform: scale(1.15)
+    }
+
+    60% {
+        transform: scale(1)
+    }
+}
+
+@-o-keyframes heartThrob {
+    10% {
+        transform: scale(1.15)
+    }
+
+    20% {
+        transform: scale(1)
+    }
+
+    40% {
+        transform: scale(1.15)
+    }
+
+    60% {
+        transform: scale(1)
+    }
+}
+
+@keyframes heartThrob {
+    10% {
+        transform: scale(1.15)
+    }
+
+    20% {
+        transform: scale(1)
+    }
+
+    40% {
+        transform: scale(1.15)
+    }
+
+    60% {
+        transform: scale(1)
+    }
 }
 
 @media (min-width: 1200px) {
   #newNav {
     margin-top:29px;
   }
-}
-
-@media (min-width: 1200px) {
   #profilePicSqu {
     width:320px;
   }
-}
-
-@media (min-width: 1200px) {
   .text-center {
     font-size:18px;
   }
-}
-
-@media (min-width: 1200px) {
   .btn.btn-primary.d-inline-block.btn-xl {
     width:20%;
     margin-left:40%;
@@ -183,41 +270,143 @@ body {
   .navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     display:none;
   }
-}
-
-@media (min-width: 768px) {
+  #aboutMePara {
+    padding-left:80px;
+    padding-right:80px;
+    margin-left:80px;
+    margin-right:80px;
+  }
+  .caption {
+    font-size:14px;
+    line-height:21px;
+  }
   .rounded.img-fluid.intro-img.mb-3.mb-lg-0.rounded {
     width:300px;
   }
-}
-
-@media (min-width: 768px) {
   #welcome {
     margin-top:-61px;
+    display:block;
   }
-}
-
-@media (min-width: 768px) {
   .headingName {
     font-size:65px;
   }
-}
-
-@media (min-width: 768px) {
   .headingDiv {
     margin-top:45px;
   }
-}
-
-@media (min-width: 768px) {
   .descriptionName {
     font-size:25px;
   }
 }
 
-@media (min-width: 768px) {
-  #welcome {
+@media (min-width: 675px) {
+  #aboutMePara {
+    padding: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 576px) {
+  .intro-text.left-0.text-centerfaded.p-5.rounded.bg-faded.text-center.aboutMe {
+    width:225px;
+  }
+    .text-center {
+    padding-left:40px;
+    padding-right:40px;
+  }
+    .caption {
+    font-size:16px;
+  }
+    #portfolio-section {
+    padding-top:50px;
+  }
+    .rounded.img-fluid.d-table.float-right.intro-img.mb-3.mb-lg-0.rounded.profilePic {
+    float:right;
+    width:232px;
+  }
+    .section-heading .section-heading-lower {
+    font-size:35px;
+  }
+    .d-inline-block.mb-3.aboutPara {
+    width:490px;
+    float:left;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    font-size:17px;
+  }
+  .rounded.img-fluid.intro-img.mb-3.mb-lg-0.rounded {
+    margin-top:-92px;
+  }
+  .rounded.img-fluid.d-table.intro-img.mb-3.mb-lg-0.rounded.profilePic {
+    margin-left:2px;
+  }
+  .rounded-circle.img-fluid.workImg {
+    margin-bottom:22px;
+  }
+  .text-center.center {
+    font-size:48px;
+  }
+  #aboutMeContainer {
+    margin-top:15px;
+  }
+  #aboutMeSection {
+    margin-top:20px;
+  }
+  #profilePicSqu {
     display:block;
+    margin:auto;
+  }
+  .row.justify-content-center.features {
+    padding-bottom:10px;
+  }
+  #headingAboutMe {
+    text-align:center;
+    font-weight:100;
+  }
+  .btn.btn-primary.d-inline-block.btn-xl {
+    font-size:.9rem;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+  }
+  .intro-text.left-0.text-centerfaded.p-5.rounded.bg-faded.text-center {
+    width:325px;
+    padding:10px;
+    margin-top:-37px;
+  }
+  .intro-text.left-0.text-centerfaded.p-5.rounded.bg-faded.text-center.aboutMe {
+    width:300px;
+    padding:0px !important;
+    margin-top:-3px;
+  }
+  .box {
+    height:335px;
+  }
+  .mb-3, .my-3 {
+    line-height:25px;
+    width:228px;
+  }
+  .section-heading .section-heading-lower {
+    font-size:42px;
+  }
+  .caption {
+    font-size:14px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+  #welcome {
+    display:none;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 992px) {
+  #backNav {
+    margin-top:0px;
   }
 }
 
@@ -230,185 +419,3 @@ body {
     visibility:visible;
   }
 }
-
-@media (min-width: 768px) {
-  .caption {
-    font-size:14px;
-    line-height:21px;
-  }
-}
-
-@media (min-width: 576px) {
-  .intro-text.left-0.text-centerfaded.p-5.rounded.bg-faded.text-center.aboutMe {
-    width:225px;
-  }
-}
-
-@media (min-width: 576px) {
-  .text-center {
-    padding-left:40px;
-    padding-right:40px;
-  }
-}
-
-@media (min-width: 576px) {
-  .caption {
-    font-size:16px;
-  }
-}
-
-@media (min-width: 576px) {
-  #portfolio-section {
-    padding-top:50px;
-  }
-}
-
-@media (min-width: 576px) {
-  .rounded.img-fluid.d-table.float-right.intro-img.mb-3.mb-lg-0.rounded.profilePic {
-    float:right;
-    width:232px;
-  }
-}
-
-@media (min-width: 576px) {
-  .section-heading .section-heading-lower {
-    font-size:35px;
-  }
-}
-
-@media (min-width: 576px) {
-  .d-inline-block.mb-3.aboutPara {
-    width:490px;
-    float:left;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 991px) {
-  #welcome {
-    display:none;
-  }
-}
-
-@media (min-width: 300px) {
-  .rounded-circle.img-fluid.workImg {
-    margin-bottom:22px;
-  }
-}
-
-@media (min-width: 300px) {
-  .text-center.center {
-    font-size:48px;
-  }
-}
-
-@media (min-width: 300px) {
-  #aboutMeContainer {
-    margin-top:15px;
-  }
-}
-
-@media (min-width: 300px) {
-  #profilePicSqu {
-    display:block;
-    margin:auto;
-  }
-}
-
-@media (min-width: 300px) {
-  .row.justify-content-center.features {
-    padding-bottom:10px;
-  }
-}
-
-@media (min-width: 300px) {
-  #headingAboutMe {
-    text-align:center;
-    font-weight:100;
-  }
-}
-
-@media (min-width: 300px) {
-  .btn.btn-primary.d-inline-block.btn-xl {
-    font-size:.9rem;
-    width:60%;
-    margin-left:20%;
-    margin-right:20%;
-  }
-}
-
-@media (min-width: 300px) {
-  .rounded-circle.img-fluid.workSize {
-  }
-}
-
-@media (min-width: 300px) {
-  .intro-text.left-0.text-centerfaded.p-5.rounded.bg-faded.text-center.aboutMe {
-    width:300px;
-    padding:0px !important;
-    margin-top:-3px;
-  }
-}
-
-@media (min-width: 300px) {
-  #aboutMeSection {
-    margin-top:20px;
-  }
-}
-
-@media (min-width: 300px) {
-  .box {
-    height:335px;
-  }
-}
-
-@media (min-width: 300px) {
-  .mb-3, .my-3 {
-    line-height:25px;
-    width:228px;
-  }
-}
-
-@media (min-width: 300px) {
-  .section-heading .section-heading-lower {
-    font-size:42px;
-  }
-}
-
-@media (min-width: 300px) {
-  .intro-text.left-0.text-centerfaded.p-5.rounded.bg-faded.text-center {
-    width:325px;
-    padding:10px;
-    margin-top:-37px;
-  }
-}
-
-@media (min-width: 300px) {
-  .navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    font-size:17px;
-  }
-}
-
-@media (min-width: 300px) {
-  .rounded.img-fluid.intro-img.mb-3.mb-lg-0.rounded {
-    margin-top:-92px;
-  }
-}
-
-@media (min-width: 300px) {
-  .rounded.img-fluid.d-table.intro-img.mb-3.mb-lg-0.rounded.profilePic {
-    margin-left:2px;
-  }
-}
-
-@media (min-width: 300px) {
-  .caption {
-    font-size:14px;
-  }
-}
-
-@media (min-width: 200px) and (max-width: 992px) {
-  #backNav {
-    margin-top:0px;
-  }
-}
-
