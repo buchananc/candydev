@@ -131,6 +131,11 @@ body {
   justify-content: center;
 }
 
+.fa-chevron-up:hover, a:hover {
+  color:#ffb374;
+  text-decoration: none;
+}
+
 .signature .left,.signature .right {
   flex: 1 0 auto;
   color:#fff;
