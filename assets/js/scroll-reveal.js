@@ -22,7 +22,7 @@ sr.reveal('#skillsSection', {
     duration: 2000,
     origin: 'right',
     useDelay: 'onload',
-    reset: true,
+    reset: false,
     distance: '150px'
 });
 
@@ -30,7 +30,7 @@ sr.reveal('#myWorkTitle', {
     duration: 2000,
     origin: 'left',
     useDelay: 'onload',
-    reset: true,
+    reset: false,
     distance: '150px'
 });
 
@@ -38,7 +38,7 @@ sr.reveal('#contactTitle', {
     duration: 2000,
     origin: 'rights',
     useDelay: 'onload',
-    reset: true,
+    reset: false,
     distance: '150px'
 });
 

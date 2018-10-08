@@ -124,6 +124,13 @@ body {
   padding-bottom: 50px;
 }
 
+.fa-chevron-down {
+  color:#61b4a7;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .fa-chevron-up {
   color:#61b4a7;
   font-size: 50px;
