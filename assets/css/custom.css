@@ -196,13 +196,26 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  #footerImg {
+    #profilePicSqu {
+        width: 45%;
+    }
+  
+    #footerImg {
     /*margin-top: 445px !important;*/
   }
 }
 
 @media only screen and (max-width: 992px) {
-  #footerImg {
+    #profilePicSqu {
+        width: 60%;
+    }
+    #footerImg {
     margin-top: 342px !important;
   }
+}
+
+@media only screen and (max-width: 1200px) {
+        #profilePicSqu {
+        width: 65%;
+    }
 }
