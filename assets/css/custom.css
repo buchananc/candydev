@@ -40,7 +40,7 @@ a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   font-size: 1rem;
   line-height: 1.5;
   border-radius: .25rem;
